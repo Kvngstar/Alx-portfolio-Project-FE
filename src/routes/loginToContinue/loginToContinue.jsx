@@ -6,7 +6,7 @@ const LoginToContinue = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        // Add your login logic here
+  
     };
 
     return (

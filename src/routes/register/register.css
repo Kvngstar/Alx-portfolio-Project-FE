@@ -1,12 +1,4 @@
-/* 
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
-  } */
+
   .container2{
     max-width: 700px;
     width: 100%;
@@ -134,8 +126,3 @@ body{
       width: 5px;
     }
     }
-    /* @media(max-width: 459px){
-    .container2 .content .category{
-      flex-direction: column;
-    }
-  } */
