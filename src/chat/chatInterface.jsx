@@ -10,8 +10,6 @@ import MessagingBox from "./chat components/chatFrame/middleBar.jsx/MessageBox/m
 import Topbar from "./chat components/chatFrame/topBar.jsx/index.jsx";
 import GroupOutline from "./chat components/groupOutline/index.jsx";
 import NavigationBar from "./chat components/navigationbar/index.js";
-import tone from "../assets/audio/iphone_sound.mp3";
-import whatsapp from "../assets/audio/whatsapp.mp3";
 import whatsapp_notification from "../assets/audio/whatsapp_notification.mp3";
 import "./chatInterface.css";
 // import Typed from "typed.js";
