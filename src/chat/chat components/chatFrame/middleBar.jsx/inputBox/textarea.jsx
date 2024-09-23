@@ -1,15 +1,12 @@
 import _ from "lodash";
 import React, { useState } from "react";
-import EmojiPicker from "../../../../../components/Emoji/picker";
-import FileReading from "../../../../../utils/filesUpload/image/image";
-import attachment from "../../../../../assets/images/attachment.svg";
-import send from "../../../../../assets/images/send.svg";
-import smiley from "../../../../../assets/images/smiley.svg";
 import toast from "react-hot-toast";
-import { Loader } from "../../../../../utils/loader/loader";
-import { useThemecontext } from "../../../../../auths/context/themeContext";
 import { CgAttachment, CgSmile } from "react-icons/cg";
 import { FiSend } from "react-icons/fi";
+import { useThemecontext } from "../../../../../auths/context/themeContext";
+import EmojiPicker from "../../../../../components/Emoji/picker";
+import FileReading from "../../../../../utils/filesUpload/image/image";
+import { Loader } from "../../../../../utils/loader/loader";
 export default function Textarea({
 	inputData,
 	setInputData,

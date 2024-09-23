@@ -4,13 +4,13 @@ import GetToken, { DecodedToken } from "../auths/jwt/authToken.js";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import toast, { Toaster } from "react-hot-toast";
+import whatsapp_notification from "../assets/audio/whatsapp_notification.mp3";
 import { Login_Auth } from "../auths/context/authContext.js";
 import Socket from "../services/socket/socket.js";
 import MessagingBox from "./chat components/chatFrame/middleBar.jsx/MessageBox/messagingBox.jsx";
 import Topbar from "./chat components/chatFrame/topBar.jsx/index.jsx";
 import GroupOutline from "./chat components/groupOutline/index.jsx";
 import NavigationBar from "./chat components/navigationbar/index.js";
-import whatsapp_notification from "../assets/audio/whatsapp_notification.mp3";
 import "./chatInterface.css";
 // import Typed from "typed.js";
 
